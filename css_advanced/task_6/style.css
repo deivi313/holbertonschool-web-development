@@ -1,0 +1,36 @@
+.faq-section {
+  max-width: 1000px;
+  margin: 80px auto;
+  padding: 40px;
+  background: #fff;
+}
+
+.faq-section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 60px;
+  letter-spacing: 0px;
+  font-weight: 300;
+}
+
+.faq-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.faq-item {
+  padding: 20px;
+  margin: 30px;
+}
+
+.faq-item h4 {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.faq-item p {
+  font-size: 14px;
+  color: #555;
+  line-height: 24px;
+}
