@@ -41,26 +41,48 @@
 
 footer {
   background-color: #071629;
+  padding: 40px 0;
 }
 
-.ctn span {
-  color: white;
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-.ctn {
-  overflow: hidden;
-  width: 100%;
+/* TOP ROW */
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+/* LOGO */
 .logo {
-  float: left;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.icons {
-  float: right;
-}
-
-.copy {
+.logo span {
   color: white;
+  font-weight: bold;
+}
+
+/* ICONS */
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icons img {
+  width: 20px;
+}
+
+/* COPYRIGHT */
+.copy {
   text-align: center;
+  color: white;
+  margin-top: 30px;
+  font-size: 12px;
+  opacity: 0.6;
 }
