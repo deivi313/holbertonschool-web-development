@@ -1,8 +1,8 @@
 .faq-section {
+  background: white;
   max-width: 1000px;
   margin: 80px auto;
   padding: 40px;
-  background: white;
 }
 
 .faq-section h2 {
@@ -10,29 +10,28 @@
   margin-bottom: 40px;
   font-size: 60px;
   font-weight: 300;
-  color: black;
+  color: #071629;
 }
 
 .faq-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
   gap: 40px;
 }
 
 .faq-item {
   padding: 20px;
-  margin: 30px;
 }
 
 .faq-item h4 {
   font-size: 16px;
   margin-bottom: 16px;
   font-weight: bold;
+  color: #071629;
 }
 
 .faq-item p {
   font-size: 14px;
-  color: rgba(rgb(0, 0, 0), 0.5);
+  color: rgba(0, 0, 0, 0.5);
   line-height: 24px;
 }
