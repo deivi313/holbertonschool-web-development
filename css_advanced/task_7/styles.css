@@ -1,0 +1,40 @@
+footer {
+  background-color: #071629;
+  width: 100%;
+  height: 250px;
+}
+
+.footer-cnt > img {
+  width: 170px;
+  height: 30px;
+  padding-top: 70px;
+}
+
+.footer-cnt {
+  width: 70%;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+.footer-cnt > div {
+  float: right;
+  padding: 50px;
+}
+
+.footer-cnt > div > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-cnt > div > ul > li {
+  width: 80px;
+  text-decoration: none;
+  color: white;
+  float: left;
+}
+
+.text {
+  text-align: center;
+  color: #ffffff;
+  font-size: 12px;
+}
