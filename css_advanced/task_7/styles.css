@@ -45,18 +45,15 @@ footer {
 }
 
 .footer-container {
+  width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-}
 
-/* TOP ROW */
-.top {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
-/* LOGO */
 .logo {
   display: flex;
   align-items: center;
@@ -68,7 +65,12 @@ footer {
   font-weight: bold;
 }
 
-/* ICONS */
+.copy {
+  color: white;
+  text-align: center;
+  flex: 1;
+}
+
 .icons {
   display: flex;
   gap: 15px;
@@ -76,13 +78,4 @@ footer {
 
 .icons img {
   width: 20px;
-}
-
-/* COPYRIGHT */
-.copy {
-  text-align: center;
-  color: white;
-  margin-top: 30px;
-  font-size: 12px;
-  opacity: 0.6;
 }
