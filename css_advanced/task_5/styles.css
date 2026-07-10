@@ -10,8 +10,8 @@
   color: white;
   display: flex;
   flex-direction: column;
-  height: 800px;
-  width: 593px;
+  height: 593px;
+  width: 800px;
 }
 
 .membership-container {
