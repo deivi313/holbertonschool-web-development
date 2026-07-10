@@ -10,6 +10,8 @@
   color: white;
   display: flex;
   flex-direction: column;
+  height: 800px;
+  width: 593px;
 }
 
 .membership-container {
@@ -34,6 +36,7 @@
 .membership h2 {
   padding-bottom: 20px;
   font-size: 18px;
+  font-weight: bold;
 }
 
 .membership p {
@@ -43,7 +46,7 @@
 }
 
 .free button {
-  background-color: rgb(201, 82, 201);
+  background-color: purple;
   color: whitesmoke;
   font-size: 14px;
   padding: 15px 32px;
