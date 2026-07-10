@@ -39,13 +39,18 @@
   font-size: 12px;
 } */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
 
 footer {
   background-color: #071629;
-  height: 119px;
+  height: 118px;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
 }
