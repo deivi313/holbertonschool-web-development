@@ -1,0 +1,90 @@
+header {
+  background: url(../images/background.png);
+}
+
+nav {
+  width: 100%;
+  background: none;
+  overflow: hidden;
+}
+
+.logo {
+  float: left;
+}
+
+.logo span {
+  color: white;
+}
+
+.nav-links {
+  float: right;
+}
+
+.nav-links a {
+  color: white;
+  display: inline-block;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  color: white;
+}
+
+.button {
+  background-color: purple;
+  color: white;
+  font-size: 14px;
+  padding: 15px 32px;
+  border: none;
+  border-radius: 26px;
+  margin: 50px 10px;
+  letter-spacing: 0.1px;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px black;
+}
+
+.pros-h2 {
+  margin-top: 160px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+.pros img {
+  width: 180px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.pros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.pro-card {
+  padding: 20px;
+  margin: 80px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.pro-card > h3 {
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.pro-card > p {
+  padding: 5px;
+  font-style: italic;
+}
