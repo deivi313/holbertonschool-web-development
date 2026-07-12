@@ -3,8 +3,10 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 50px;
   background-color: purple;
+  text-align: center;
+  height: 300px;
+  width: 800px;
 }
 
 .quote > img {
@@ -16,7 +18,6 @@
 
 .quote-words {
   margin: 30px;
-  padding: 30px;
 }
 
 .quote-words > p {
