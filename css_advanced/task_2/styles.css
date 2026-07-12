@@ -30,24 +30,30 @@ body {
 
 nav {
   position: absolute;
-
   top: 35px;
-
   left: 0;
-
   width: 100%;
-
   padding: 0 10%;
-
   display: flex;
-
   justify-content: space-between;
-
   align-items: center;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 .logo img {
-  width: 170px;
+  width: 35px;
+  height: 35px;
+}
+
+.logo span {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .nav-links {
