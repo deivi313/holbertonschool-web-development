@@ -8,11 +8,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* HEADER / HERO */
+
 header {
   min-height: 100vh;
 
   background:
-    radial-gradient(circle, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.85)),
+    radial-gradient(circle, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.85)),
     url("../images/background.png");
 
   background-size: cover;
@@ -61,7 +63,7 @@ nav {
 /* HERO */
 
 .hero {
-  height: 430px;
+  height: calc(100vh - 100px);
 
   display: flex;
 
@@ -70,14 +72,14 @@ nav {
   justify-content: center;
 
   align-items: center;
+
+  text-align: center;
 }
 
 .hero h1 {
-  font-size: 72px;
+  font-size: 64px;
 
   font-weight: bold;
-
-  color: white;
 }
 
 .keywords {
@@ -112,13 +114,17 @@ nav {
   font-weight: bold;
 
   cursor: pointer;
-
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
 /* PROS SECTION */
 
 .pros {
+  background: white;
+
+  color: #071629;
+
+  padding: 80px 0;
+
   text-align: center;
 }
 
@@ -144,8 +150,6 @@ nav {
 
 .pro-card {
   text-align: center;
-
-  color: white;
 }
 
 .pro-card img {
@@ -170,4 +174,6 @@ nav {
   font-size: 14px;
 
   font-style: italic;
+
+  color: rgba(7, 22, 41, 0.6);
 }
