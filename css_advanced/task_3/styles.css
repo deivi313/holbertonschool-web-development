@@ -1,0 +1,32 @@
+.quote {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background-color: purple;
+}
+
+.quote > img {
+  height: 150px;
+  width: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.quote-words {
+  margin: 30px;
+  padding: 30px;
+}
+
+.quote-words > p {
+  padding: 5px;
+  color: white;
+}
+
+.quote-words > blockquote {
+  padding: 10px;
+  margin-bottom: 5px;
+  color: white;
+  font-style: italic;
+}
