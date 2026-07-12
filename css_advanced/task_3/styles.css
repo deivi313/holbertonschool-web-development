@@ -1,33 +1,47 @@
-.quote {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background-color: purple;
-  text-align: center;
-  height: 300px;
+/* SECTION (this is what Playwright screenshots) */
+.quote-section {
+  background-color: #c271ff;
   width: 800px;
+  height: 300px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.quote > img {
+/* INNER CONTAINER */
+.quote {
+  display: flex;
+  align-items: center;
+}
+
+/* IMAGE */
+.quote img {
   height: 150px;
-  width: 160px;
+  width: 150px;
   border-radius: 50%;
   object-fit: cover;
 }
 
+/* TEXT SIDE */
 .quote-words {
-  margin: 30px;
-}
-
-.quote-words > p {
-  padding: 5px;
+  margin-left: 40px;
   color: white;
 }
 
-.quote-words > blockquote {
-  padding: 10px;
-  margin-bottom: 5px;
-  color: white;
+/* QUOTE */
+.quote-words blockquote {
+  margin-bottom: 15px;
+}
+
+/* AUTHOR */
+.author {
+  font-weight: bold;
+  margin: 0;
+}
+
+/* SUBTITLE (THIS WAS FAILING) */
+.subtitle {
   font-style: italic;
+  margin: 0;
 }
