@@ -8,32 +8,31 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* HERO BACKGROUND */
+/* HERO SECTION */
 
 .hero-section {
-  min-height: 100vh;
+  min-height: 800px;
 
   background:
-    radial-gradient(circle at center, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.85)),
+    radial-gradient(circle, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.65)),
     url("../images/background.png");
 
   background-size: cover;
-
   background-position: center;
-
   color: white;
-
   position: relative;
 }
 
-/* NAVIGATION */
+/* NAVBAR */
 
 nav {
   position: absolute;
   top: 35px;
-  left: 0;
-  width: 100%;
-  padding: 0 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 1100px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,134 +45,102 @@ nav {
 }
 
 .logo img {
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
 }
 
 .logo span {
-  color: white;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: bold;
+  color: white;
 }
 
 .nav-links {
   display: flex;
-
-  gap: 45px;
+  gap: 40px;
 }
 
 .nav-links a {
   color: white;
-
   text-decoration: none;
-
   font-size: 12px;
-
   font-weight: bold;
 }
 
 /* HERO CONTENT */
 
 .hero-content {
-  height: 620px;
-
   display: flex;
-
   flex-direction: column;
-
-  justify-content: center;
-
   align-items: center;
+  text-align: center;
+  padding-top: 250px;
 }
 
 .hero-content h1 {
-  font-size: 64px;
-
+  font-size: 48px;
   font-weight: 700;
-
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .keywords {
   display: flex;
-
   gap: 50px;
 }
 
 .keywords span {
   font-size: 14px;
-
   font-weight: bold;
 }
 
 button {
-  margin-top: 35px;
-
+  margin-top: 30px;
   background: #c271ff;
-
   border: none;
-
   color: white;
-
   font-weight: bold;
-
   font-size: 12px;
-
-  padding: 15px 30px;
-
-  border-radius: 25px;
+  padding: 15px 35px;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* PROS */
+/* PROS SECTION */
 
 .pros {
   text-align: center;
-
-  padding-top: 40px;
+  margin-top: 100px;
 }
 
 .pros h2 {
   font-size: 32px;
-
   font-weight: 300;
-
-  margin-bottom: 45px;
+  margin-bottom: 50px;
 }
 
 .pros h2 span {
   color: #c271ff;
-
   font-weight: bold;
 }
 
 .pros-container {
   display: flex;
-
   justify-content: center;
-
-  gap: 70px;
-}
-
-.pro-card {
-  text-align: center;
+  gap: 55px;
 }
 
 .pro-card img {
   width: 150px;
-
   height: 150px;
-
   border-radius: 50%;
 }
 
 .pro-card h3 {
-  margin-top: 20px;
-
+  margin-top: 15px;
   font-size: 16px;
 }
 
 .pro-card p {
   font-size: 14px;
-
-  margin-top: 8px;
+  margin-top: 5px;
 }
