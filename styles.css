@@ -4,7 +4,7 @@
 }
 
 header {
-  background-image: url(../images/background.png);
+  background-image: url(./css_advanced/images/background.png);
   height: auto;
   max-width: 100%;
   background-size: cover;
