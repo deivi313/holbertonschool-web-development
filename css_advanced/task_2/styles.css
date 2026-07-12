@@ -8,18 +8,18 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* HEADER / HERO */
+/* HEADER */
 
 header {
-  min-height: 100vh;
-
   background:
-    radial-gradient(circle, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.85)),
+    radial-gradient(circle, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.8)),
     url("../images/background.png");
 
   background-size: cover;
 
   background-position: center;
+
+  height: 800px;
 
   color: white;
 
@@ -63,7 +63,7 @@ nav {
 /* HERO */
 
 .hero {
-  height: calc(100vh - 100px);
+  height: 650px;
 
   display: flex;
 
@@ -72,22 +72,20 @@ nav {
   justify-content: center;
 
   align-items: center;
-
-  text-align: center;
 }
 
 .hero h1 {
   font-size: 64px;
 
-  font-weight: bold;
+  font-weight: 700;
+
+  margin-bottom: 20px;
 }
 
 .keywords {
   display: flex;
 
   gap: 45px;
-
-  margin-top: 25px;
 }
 
 .keywords span {
@@ -101,31 +99,29 @@ nav {
 
   padding: 15px 32px;
 
-  border: none;
-
-  border-radius: 30px;
-
   background: #c271ff;
 
   color: white;
 
+  border: none;
+
+  border-radius: 25px;
+
   font-size: 12px;
 
   font-weight: bold;
-
-  cursor: pointer;
 }
 
-/* PROS SECTION */
+/* PROS */
 
 .pros {
   background: white;
 
   color: #071629;
 
-  padding: 80px 0;
-
   text-align: center;
+
+  padding: 70px 0;
 }
 
 .pros h2 {
@@ -148,10 +144,6 @@ nav {
   gap: 80px;
 }
 
-.pro-card {
-  text-align: center;
-}
-
 .pro-card img {
   width: 150px;
 
@@ -164,8 +156,6 @@ nav {
   margin-top: 20px;
 
   font-size: 16px;
-
-  font-weight: bold;
 }
 
 .pro-card p {
@@ -174,6 +164,4 @@ nav {
   font-size: 14px;
 
   font-style: italic;
-
-  color: rgba(7, 22, 41, 0.6);
 }
