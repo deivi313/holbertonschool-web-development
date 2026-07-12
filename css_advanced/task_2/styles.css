@@ -8,10 +8,11 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-/* HERO SECTION */
+/* HERO */
 
 .hero-section {
-  height: 800px;
+  height: 100vh;
+  color: white;
 
   background:
     radial-gradient(circle at center, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),
@@ -19,40 +20,38 @@ body {
 
   background-size: cover;
   background-position: center;
-  color: white;
-  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* NAVBAR */
+/* NAV */
 
 nav {
-  position: absolute;
-  top: 35px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 90%;
+  width: 100%;
   max-width: 1100px;
+  margin-top: 35px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: transparent;
 }
 
 .logo {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
 }
 
 .logo img {
-  width: 45px;
-  height: 45px;
+  width: 40px;
 }
 
 .logo span {
-  font-size: 28px;
-  font-weight: bold;
-  color: white;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .nav-links {
@@ -64,80 +63,77 @@ nav {
   color: white;
   text-decoration: none;
   font-size: 12px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 /* HERO CONTENT */
 
 .hero-content {
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin-top: 120px;
 
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
 }
 
 .hero-content h1 {
-  font-size: 48px;
+  font-size: 56px;
   font-weight: 700;
-  margin-bottom: 20px;
 }
 
 .keywords {
   display: flex;
   gap: 30px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .keywords span {
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 button {
-  margin-top: 20px;
+  margin-top: 30px;
+
   background: #c271ff;
-  border: none;
   color: white;
-  font-weight: bold;
-  font-size: 12px;
+  border: none;
+
   padding: 15px 35px;
   border-radius: 30px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+  font-size: 12px;
+  font-weight: 700;
 }
 
-/* PROS SECTION */
+/* PROS */
 
 .pros {
-  position: absolute;
-  bottom: 60px;
-  width: 100%;
+  margin-top: auto;
+  margin-bottom: 60px;
+  text-align: center;
 }
 
 .pros h2 {
   font-size: 32px;
   font-weight: 300;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .pros h2 span {
   color: #c271ff;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .pros-container {
   display: flex;
   justify-content: center;
-  gap: 55px;
+  gap: 50px;
 }
 
 .pro-card img {
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
 }
 
@@ -147,6 +143,6 @@ button {
 }
 
 .pro-card p {
-  font-size: 14px;
   margin-top: 5px;
+  font-size: 14px;
 }
