@@ -4,51 +4,42 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
   min-height: 100vh;
 
   background:
-    radial-gradient(circle at center, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.85)),
+    radial-gradient(circle, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.85)),
     url("../images/background.png");
 
   background-size: cover;
+
   background-position: center;
 
   color: white;
 
-  padding-top: 30px;
+  padding-top: 35px;
 }
 
+/* NAVBAR */
+
 nav {
+  width: 90%;
+
+  margin: auto;
+
   display: flex;
 
   justify-content: space-between;
 
   align-items: center;
-
-  width: 90%;
-
-  margin: auto;
-}
-
-.logo {
-  display: flex;
-
-  align-items: center;
-
-  gap: 10px;
 }
 
 .logo img {
-  width: 40px;
-}
-
-.logo span {
-  color: white;
-
-  font-size: 22px;
-
-  font-weight: bold;
+  width: 160px;
 }
 
 .nav-links {
@@ -62,12 +53,16 @@ nav {
 
   text-decoration: none;
 
-  font-weight: bold;
+  font-size: 12px;
 
-  font-size: 14px;
+  font-weight: bold;
 }
 
+/* HERO */
+
 .hero {
+  height: 430px;
+
   display: flex;
 
   flex-direction: column;
@@ -75,24 +70,26 @@ nav {
   justify-content: center;
 
   align-items: center;
-
-  height: 420px;
 }
 
 .hero h1 {
-  color: white;
-
-  font-size: 70px;
+  font-size: 72px;
 
   font-weight: bold;
+
+  color: white;
 }
 
 .keywords {
   display: flex;
 
-  gap: 40px;
+  gap: 45px;
 
-  margin-top: 20px;
+  margin-top: 25px;
+}
+
+.keywords span {
+  font-size: 14px;
 
   font-weight: bold;
 }
@@ -100,31 +97,35 @@ nav {
 .button {
   margin-top: 40px;
 
-  background-color: #c271ff;
-
-  color: white;
+  padding: 15px 32px;
 
   border: none;
 
   border-radius: 30px;
 
-  padding: 15px 35px;
+  background: #c271ff;
+
+  color: white;
+
+  font-size: 12px;
 
   font-weight: bold;
 
   cursor: pointer;
 
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
+
+/* PROS SECTION */
 
 .pros {
   text-align: center;
 }
 
 .pros h2 {
-  color: white;
+  font-size: 32px;
 
-  font-size: 35px;
+  font-weight: 300;
 
   margin-bottom: 50px;
 }
@@ -142,11 +143,7 @@ nav {
 }
 
 .pro-card {
-  display: flex;
-
-  flex-direction: column;
-
-  align-items: center;
+  text-align: center;
 
   color: white;
 }
@@ -162,11 +159,15 @@ nav {
 .pro-card h3 {
   margin-top: 20px;
 
+  font-size: 16px;
+
   font-weight: bold;
 }
 
 .pro-card p {
-  font-style: italic;
-
   margin-top: 8px;
+
+  font-size: 14px;
+
+  font-style: italic;
 }
