@@ -8,30 +8,36 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* HEADER */
+/* HERO BACKGROUND */
 
-header {
+.hero-section {
+  min-height: 100vh;
+
   background:
-    radial-gradient(circle, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.8)),
+    radial-gradient(circle at center, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.85)),
     url("../images/background.png");
 
   background-size: cover;
 
   background-position: center;
 
-  height: 800px;
-
   color: white;
 
-  padding-top: 35px;
+  position: relative;
 }
 
-/* NAVBAR */
+/* NAVIGATION */
 
 nav {
-  width: 90%;
+  position: absolute;
 
-  margin: auto;
+  top: 35px;
+
+  left: 0;
+
+  width: 100%;
+
+  padding: 0 10%;
 
   display: flex;
 
@@ -41,13 +47,13 @@ nav {
 }
 
 .logo img {
-  width: 160px;
+  width: 170px;
 }
 
 .nav-links {
   display: flex;
 
-  gap: 40px;
+  gap: 45px;
 }
 
 .nav-links a {
@@ -60,10 +66,10 @@ nav {
   font-weight: bold;
 }
 
-/* HERO */
+/* HERO CONTENT */
 
-.hero {
-  height: 650px;
+.hero-content {
+  height: 620px;
 
   display: flex;
 
@@ -74,18 +80,18 @@ nav {
   align-items: center;
 }
 
-.hero h1 {
+.hero-content h1 {
   font-size: 64px;
 
   font-weight: 700;
 
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .keywords {
   display: flex;
 
-  gap: 45px;
+  gap: 50px;
 }
 
 .keywords span {
@@ -94,34 +100,30 @@ nav {
   font-weight: bold;
 }
 
-.button {
-  margin-top: 40px;
-
-  padding: 15px 32px;
+button {
+  margin-top: 35px;
 
   background: #c271ff;
 
-  color: white;
-
   border: none;
 
-  border-radius: 25px;
+  color: white;
+
+  font-weight: bold;
 
   font-size: 12px;
 
-  font-weight: bold;
+  padding: 15px 30px;
+
+  border-radius: 25px;
 }
 
 /* PROS */
 
 .pros {
-  background: white;
-
-  color: #071629;
-
   text-align: center;
 
-  padding: 70px 0;
+  padding-top: 40px;
 }
 
 .pros h2 {
@@ -129,11 +131,13 @@ nav {
 
   font-weight: 300;
 
-  margin-bottom: 50px;
+  margin-bottom: 45px;
 }
 
 .pros h2 span {
   color: #c271ff;
+
+  font-weight: bold;
 }
 
 .pros-container {
@@ -141,7 +145,11 @@ nav {
 
   justify-content: center;
 
-  gap: 80px;
+  gap: 70px;
+}
+
+.pro-card {
+  text-align: center;
 }
 
 .pro-card img {
@@ -159,9 +167,7 @@ nav {
 }
 
 .pro-card p {
-  margin-top: 8px;
-
   font-size: 14px;
 
-  font-style: italic;
+  margin-top: 8px;
 }
