@@ -1,90 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header {
-  background: url(../images/background.png);
+  min-height: 100vh;
+
+  background:
+    radial-gradient(circle at center, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.85)),
+    url("../images/background.png");
+
+  background-size: cover;
+  background-position: center;
+
+  color: white;
+
+  padding-top: 30px;
 }
 
 nav {
-  width: 100%;
-  background: none;
-  overflow: hidden;
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  width: 90%;
+
+  margin: auto;
 }
 
 .logo {
-  float: left;
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+}
+
+.logo img {
+  width: 40px;
 }
 
 .logo span {
   color: white;
+
+  font-size: 22px;
+
+  font-weight: bold;
 }
 
 .nav-links {
-  float: right;
+  display: flex;
+
+  gap: 40px;
 }
 
 .nav-links a {
   color: white;
-  display: inline-block;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+  font-size: 14px;
 }
 
 .hero {
   display: flex;
+
   flex-direction: column;
-  align-content: center;
+
   justify-content: center;
+
+  align-items: center;
+
+  height: 420px;
 }
 
 .hero h1 {
   color: white;
+
+  font-size: 70px;
+
+  font-weight: bold;
+}
+
+.keywords {
+  display: flex;
+
+  gap: 40px;
+
+  margin-top: 20px;
+
+  font-weight: bold;
 }
 
 .button {
-  background-color: purple;
+  margin-top: 40px;
+
+  background-color: #c271ff;
+
   color: white;
-  font-size: 14px;
-  padding: 15px 32px;
+
   border: none;
-  border-radius: 26px;
-  margin: 50px 10px;
-  letter-spacing: 0.1px;
+
+  border-radius: 30px;
+
+  padding: 15px 35px;
+
+  font-weight: bold;
+
   cursor: pointer;
-  box-shadow: 0px 4px 8px black;
-}
 
-.pros-h2 {
-  margin-top: 160px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
-
-.pros img {
-  width: 180px;
-  height: auto;
-  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
 }
 
 .pros {
+  text-align: center;
+}
+
+.pros h2 {
+  color: white;
+
+  font-size: 35px;
+
+  margin-bottom: 50px;
+}
+
+.pros h2 span {
+  color: #c271ff;
+}
+
+.pros-container {
   display: flex;
+
   justify-content: center;
-  align-items: center;
-  flex-direction: row;
+
+  gap: 80px;
 }
 
 .pro-card {
-  padding: 20px;
-  margin: 80px 40px;
   display: flex;
+
   flex-direction: column;
-  justify-content: center;
+
   align-items: center;
+
   color: white;
 }
 
-.pro-card > h3 {
-  padding: 5px;
-  margin-top: 10px;
+.pro-card img {
+  width: 150px;
+
+  height: 150px;
+
+  border-radius: 50%;
 }
 
-.pro-card > p {
-  padding: 5px;
+.pro-card h3 {
+  margin-top: 20px;
+
+  font-weight: bold;
+}
+
+.pro-card p {
   font-style: italic;
+
+  margin-top: 8px;
 }
